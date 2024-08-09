@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize]
       
 jobs:
-  Test and Build:
+  Test-and-Build:
     runs-on: ubuntu-latest
     steps:
       - name: Set up JDK 11
